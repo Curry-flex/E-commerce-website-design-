@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap");
+
+#logo {
+  height: 70px;
+  width: 100px;
+}
+body {
+  font-family: Sora, "sans-serif";
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.cart {
+  height: 15px;
+  width: 15px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.navbar {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/hero.jpeg);
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h2 {
+  font-weight: 700;
+}
+
+.hero a {
+  border-radius: 50px;
+  font-weight: bold;
+}
+.hero a:hover {
+  background: blue;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.title h2::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 50px;
+  background-color: red;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.collection button {
+  border-radius: 50px;
+}
+.collection button:hover {
+  background: palevioletred;
+  color: #fff;
+}
+
+.collection-image span {
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50px;
+}
+
+.text-primary {
+  color: rgb(255, 0, 21) !important;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+}
+
+.selection-image span {
+  color: red;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+}
+
+.info a {
+  border-radius: 50px;
+}
+
+.selection-image img:hover {
+  transform: scale(1.1);
+}
+
+.collection-image img:hover {
+  transform: scale(1.1);
+}
+
+#offers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/discount.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#offers .row {
+  min-height: 60vh;
+}
+.offer-content a {
+  border-radius: 30px;
+}
+
+.offer-content a:hover {
+  background-color: rgb(3, 3, 51);
+  transition: 0.5s ease;
+  color: white;
+}
+
+.offer-content span {
+  font-size: 20px;
+}
+
+.card a {
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.about-us h4 {
+  top: 100px;
+  right: 100px;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(11, 38, 68) !important;
+  opacity: 0;
+}
+
+.about-us:hover h4 {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+#news {
+  background-color: rgb(241, 234, 232);
+}
+
+#about-us {
+  background-color: rgb(241, 234, 232);
+}
+
+.button button {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+}
+
+#news p {
+  max-width: 600px;
+}
+
+#news .input-group {
+  max-width: 500px;
+}
+
+#news .form-control {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#footer li a i {
+  color: white;
+}
+#footer i {
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+}
+
+#social i {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
